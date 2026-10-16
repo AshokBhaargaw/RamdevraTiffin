@@ -1,0 +1,5 @@
+# Robots.txt for Ramdevra Tiffin Services
+User-agent: *
+Allow: /
+
+Sitemap: https://ramdevratiffin.netlify.app/sitemap.xml
