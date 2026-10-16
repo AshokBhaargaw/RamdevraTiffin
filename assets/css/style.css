@@ -300,6 +300,15 @@ button, input, select, textarea {
   box-shadow: 0 4px 12px rgba(230, 81, 0, 0.3);
 }
 
+.brand-icon-img {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(230, 81, 0, 0.25);
+  display: block;
+}
+
 .brand-name {
   font-size: 1.25rem;
   font-weight: 800;
