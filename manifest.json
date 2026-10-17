@@ -13,8 +13,13 @@
       "type": "image/png"
     },
     {
-      "src": "/assets/images/logo.png",
+      "src": "/favicon-512x512.png",
       "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/logo.png",
+      "sizes": "1024x1024",
       "type": "image/png"
     }
   ]
