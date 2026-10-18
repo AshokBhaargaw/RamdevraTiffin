@@ -9,19 +9,24 @@
   --primary-dark: #b23b00;
   --primary-light: #ff7d3b;
   --primary-subtle: #fff3e0;
-  --primary-gradient: linear-gradient(135deg, #e65100 0%, #ff6d00 50%, #ff9100 100%);
-  
+  --primary-gradient: linear-gradient(
+    135deg,
+    #e65100 0%,
+    #ff6d00 50%,
+    #ff9100 100%
+  );
+
   --veg-green: #2e7d32;
   --veg-green-dark: #1b5e20;
   --veg-green-light: #e8f5e9;
   --veg-green-gradient: linear-gradient(135deg, #2e7d32 0%, #43a047 100%);
-  
+
   --whatsapp: #25d366;
   --whatsapp-dark: #128c7e;
-  
+
   --accent-gold: #f59e0b;
   --accent-gold-light: #fef3c7;
-  
+
   /* Neutral Palette */
   --bg-main: #fbf9f5;
   --bg-card: #ffffff;
@@ -29,16 +34,16 @@
   --bg-muted: #f4efe6;
   --bg-dark: #14171a;
   --bg-dark-card: #1f2429;
-  
+
   --text-main: #1e293b;
   --text-muted: #64748b;
   --text-light: #94a3b8;
   --text-inverted: #ffffff;
-  
+
   --border-light: rgba(226, 232, 240, 0.8);
   --border-warm: rgba(230, 81, 0, 0.15);
   --border-focus: #e65100;
-  
+
   /* Elevation Shadows */
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
   --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
@@ -48,22 +53,26 @@
   --shadow-wa: 0 10px 25px rgba(37, 211, 102, 0.4);
 
   /* Typography */
-  --font-heading: 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  
+  --font-heading:
+    "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-body:
+    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
   /* Geometry */
   --radius-sm: 8px;
   --radius-md: 14px;
   --radius-lg: 20px;
   --radius-full: 9999px;
-  
+
   /* Transitions */
   --trans-quick: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   --trans-smooth: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 /* Base Reset & Typography */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -94,7 +103,12 @@ body {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
   color: var(--text-main);
   line-height: 1.25;
@@ -112,7 +126,10 @@ a {
   text-decoration: none;
 }
 
-button, input, select, textarea {
+button,
+input,
+select,
+textarea {
   font-family: inherit;
 }
 
@@ -135,9 +152,15 @@ button, input, select, textarea {
   }
 }
 
-.text-center { text-align: center; }
-.text-veg { color: var(--veg-green); }
-.text-primary { color: var(--primary); }
+.text-center {
+  text-align: center;
+}
+.text-veg {
+  color: var(--veg-green);
+}
+.text-primary {
+  color: var(--primary);
+}
 
 /* Badges */
 .badge {
@@ -178,9 +201,18 @@ button, input, select, textarea {
 }
 
 @keyframes pulseAnimation {
-  0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7); }
-  70% { transform: scale(1.1); box-shadow: 0 0 0 8px rgba(34, 197, 94, 0); }
-  100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.7);
+  }
+  70% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 8px rgba(34, 197, 94, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0);
+  }
 }
 
 /* Buttons System */
@@ -251,11 +283,22 @@ button, input, select, textarea {
 }
 
 @keyframes callJiggle {
-  0%, 100% { transform: scale(1); }
-  5% { transform: scale(1.05) rotate(1deg); }
-  10% { transform: scale(1.05) rotate(-1deg); }
-  15% { transform: scale(1.03) rotate(0deg); }
-  20% { transform: scale(1); }
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  5% {
+    transform: scale(1.05) rotate(1deg);
+  }
+  10% {
+    transform: scale(1.05) rotate(-1deg);
+  }
+  15% {
+    transform: scale(1.03) rotate(0deg);
+  }
+  20% {
+    transform: scale(1);
+  }
 }
 
 /* ==========================================================================
@@ -854,7 +897,6 @@ button, input, select, textarea {
   max-width: 650px;
   line-height: 1.5;
 }
-
 
 /* ==========================================================================
    Why Choose Us / Trust Badges
@@ -1890,4 +1932,3 @@ textarea.form-control {
   font-size: 42px;
   margin: 0 auto 20px;
 }
-
